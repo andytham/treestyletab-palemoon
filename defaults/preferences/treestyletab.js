@@ -85,10 +85,10 @@ pref("extensions.treestyletab.platform.Linux.tabbar.narrowScrollbar.overrideSyst
  * instead of "tabbar.style" for the default preference. Users can set
  * the selected skin directly via "tabbar.style".
  */
-// pref("extensions.treestyletab.tabbar.style",      "mixed");
-pref("extensions.treestyletab.platform.default.tabbar.style", "mixed");
-pref("extensions.treestyletab.platform.Darwin.tabbar.style", "metal");
-pref("extensions.treestyletab.platform.Linux.tabbar.style", "plain");
+pref("extensions.treestyletab.tabbar.style",      "default");
+pref("extensions.treestyletab.platform.default.tabbar.style", "default");
+pref("extensions.treestyletab.platform.Darwin.tabbar.style", "default");
+pref("extensions.treestyletab.platform.Linux.tabbar.style", "default");
 /**
  * Background of the vertical tab bar can be cleared. On Windows + Aero Glass,
  * Aero Glass will be applied for the vertical tab bar, if you set this to "true".

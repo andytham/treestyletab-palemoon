@@ -2620,7 +2620,7 @@ TreeStyleTabBrowser.prototype = inherit(TreeStyleTabWindow.prototype, {
 			aStyle = aStyle.toLowerCase();
 
 		if (aStyle.indexOf('default') == 0) { // old name (for compatibility)
-			utils.setTreePref('tabbar.style', aStyle = aStyle.replace('default', 'plain'));
+			utils.setTreePref('tabbar.style', aStyle = aStyle.replace('default', 'default')); //lazy hotfix to force default
 		}
 
 		if (aStyle) {

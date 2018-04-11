@@ -200,7 +200,7 @@
 				src="chrome://treestyletab/content/res/style-vertigo.png"/>
 			</arrowscrollbox>
 			<hbox align="center">
-			<radio value="" label="&config.tabbar.style.none;"/>
+			<radio value="" label="&config.tabbar.style.none;" selected="true"/>
 			</hbox>
 		</radiogroup>
 	</groupbox>
