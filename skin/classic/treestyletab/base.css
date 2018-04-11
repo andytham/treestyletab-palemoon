@@ -1,5 +1,8 @@
 @namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
 
+/* Default style */
+
+
 
 /* buttons in the tab bar */
 
@@ -17,10 +20,12 @@
 	-moz-border-radius: 0;
 	border-top: 1px solid ThreeDShadow !important;
 	background: -moz-dialog !important;
+  background-color: rgb(23,23,23) !important;
 }
 .tabbrowser-tabs[treestyletab-mode="vertical"] .tabs-newtab-button:hover,
 .treestyletab-tabbar-toolbar[treestyletab-mode="vertical"] > toolbarbutton:hover {
 	background: ThreeDHighlight !important;
+	  background-color: rgba(74,74,74,1) !important;
 }
 
 /* for Mac OS X */
@@ -73,6 +78,7 @@
 .tabbrowser-tabs[treestyletab-mode="vertical"]
   .tabbrowser-arrowscrollbox .tabs-newtab-button {
 	border: 0 none !important;
+	border-top: 1px solid ThreeDShadow !important;
 	border-bottom: 1px solid ThreeDShadow !important;
 	border-radius: 0 0 3px 3px;
 	-moz-border-radius: 0 0 3px 3px;
@@ -117,4 +123,14 @@
   .tabbrowser-tab:not([busy])
   .tab-icon-image:not([src]):not([pinned]) {
 	display: -moz-box;
+}
+
+/* buggy new tab creation hotfix */
+.tabbrowser-tabs:not([treestyletab-tabbar-position="top"])
+  .tabbrowser-tab,
+.tabbrowser-tabs:not([treestyletab-tabbar-position="top"])
+  .tabbrowser-tab:not([selected="true"]) {
+
+	margin: 0 !important;
+	/*padding: 0 0.2em !important;*/
 }
