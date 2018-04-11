@@ -1,8 +1,10 @@
 # treestyletab
-Tree Style Tab bare minimum working version for Pale Moon
+Tree Style Tab bare minimum working version for Pale Moon, edited again to work specifically for Dark Moon theme.
 
-This is a fork of YUKI "Piro" Hiroshi's indispensable Tree Style Tabs addon for Firefox, which unfortunately stopped working in Pale Moon. 
+Forked from oinkoink's fork of YUKI "Piro" Hiroshi's indispensable Tree Style Tabs addon for Firefox, which unfortunately stopped working in Pale Moon.
+
+This no longer exists (at least in the same way) on Firefox due to XUL no longer being supported.
 
 ## Maintenance
 
-I'm happy to accept pull requests but I will only be personally fixing bugs that impact my use of the addon. 
+This is a personal use version.
