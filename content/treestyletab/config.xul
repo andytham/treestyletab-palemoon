@@ -200,7 +200,7 @@
 				src="chrome://treestyletab/content/res/style-vertigo.png"/>
 			</arrowscrollbox>
 			<hbox align="center">
-			<radio value="" label="&config.tabbar.style.none;" selected="true"/>
+			<radio value="" label="&config.tabbar.style.none;" selected="true" />
 			</hbox>
 		</radiogroup>
 	</groupbox>
@@ -219,7 +219,7 @@
 				class="image" align="center"
 				src="chrome://treestyletab/content/res/twisty-modern-b.png"/>
 			<radio value="modern-white" label="&config.twisty.style.modern.white;"
-				class="image" align="center"
+				class="image" align="center" selected="true" 
 				src="chrome://treestyletab/content/res/twisty-modern-w.png"/>
 			<radio value="osx" label="&config.twisty.style.osx;"
 				class="image" align="center"
