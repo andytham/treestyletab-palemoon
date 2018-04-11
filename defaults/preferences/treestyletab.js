@@ -87,8 +87,8 @@ pref("extensions.treestyletab.platform.Linux.tabbar.narrowScrollbar.overrideSyst
  */
 pref("extensions.treestyletab.tabbar.style",      "default");
 pref("extensions.treestyletab.platform.default.tabbar.style", "default");
-pref("extensions.treestyletab.platform.Darwin.tabbar.style", "default");
-pref("extensions.treestyletab.platform.Linux.tabbar.style", "default");
+pref("extensions.treestyletab.platform.Darwin.tabbar.style", "metal");
+pref("extensions.treestyletab.platform.Linux.tabbar.style", "plain");
 /**
  * Background of the vertical tab bar can be cleared. On Windows + Aero Glass,
  * Aero Glass will be applied for the vertical tab bar, if you set this to "true".
@@ -305,7 +305,7 @@ pref("extensions.treestyletab.insertNewChildAt", 1);
  * Appearance of twisty in tabs. Possible values:
  *  "none", "retro", "modern-black", "modern-white", and "auto".
  */
-pref("extensions.treestyletab.twisty.style", "auto");
+pref("extensions.treestyletab.twisty.style", "modern-white");
 /**
  * Because twisties in tabs are small, it is possibly hard to be clicked.
  * If this pref is "true", TST handles events from favicons just same as
