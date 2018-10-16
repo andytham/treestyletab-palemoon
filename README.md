@@ -1,4 +1,6 @@
 # treestyletab
+Updated 2018-10-15: Pulled oinkoink's updates for Pale Moon 28.
+
 ![browser appearance](https://i.imgur.com/TIPWs5C.png)
 
 What it looks like on initial install with [Dark Moon](https://github.com/andytham/darkmoon)
