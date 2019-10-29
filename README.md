@@ -1,6 +1,16 @@
-# treestyletab
-Updated 2018-10-15: Pulled oinkoink's updates for Pale Moon 28.
+# treestyletab for palemoon
+Fork of oinkin's fork of treestyletab found [here](https://github.com/oinkin/treestyletab).
 
+## Changelog
+2019-10-29:
+- Made standalone so I can seperate it from piroor's version
+- Fixed previous author's name
+
+2018-10-15:
+- Pulled oinkin's updates for Pale Moon 28.
+
+
+## Features
 ![browser appearance](https://i.imgur.com/TIPWs5C.png)
 
 What it looks like on initial install with [Dark Moon](https://github.com/andytham/darkmoon)
